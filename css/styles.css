@@ -83,7 +83,7 @@ body {
 .btn {
     display: flex;
     position: relative;
-    top: 32px;
+    top: 20%;
     border-radius: 0.6rem;
     cursor: pointer;
     background: #51917a;
