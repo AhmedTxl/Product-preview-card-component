@@ -77,13 +77,13 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    top: 32px;
+    top: 6px;
 }
 
 .btn {
     display: flex;
     position: relative;
-    top: 92px;
+    top: 32px;
     border-radius: 0.6rem;
     cursor: pointer;
     background: #51917a;
