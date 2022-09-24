@@ -1,0 +1,256 @@
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    text-align: center;
+    background: #f0e4db;
+}
+
+@font-face {
+    font-family: 'Isabel';
+    src: url('/fonts/Isabel-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.main_prc {
+    font-family: 'Isabel' !important;
+    font-size: 2.6rem !important; 
+    color: #457c68 !important;
+    margin-right: 0.6em !important;
+
+}
+
+.wrapper {
+    display: flex;
+    border-radius: 0.6rem;
+    margin: 0;
+    background: white;
+    max-width: 45rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper img {
+    width: 51%;
+    border-radius: 0.6rem 0 0 0.6rem;
+}
+
+.container {
+    text-align: left;
+    padding: 2.5em;
+    line-height: 3;
+}
+
+.card-header {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #5f626c;
+    position: relative;
+    top: -12px;
+}
+
+.container h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 33px;
+    line-height: 1.1;
+}
+
+.container p {
+    line-height: 1.6em;
+    font-family: 'Lato', sans-serif;
+    color: #5f626c;
+    position: relative;
+    font-size: 18px;
+    text-shadow: 0 0 0px black;
+    top: 20px;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 32px;
+}
+
+.btn {
+    display: flex;
+    position: relative;
+    top: 92px;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    background: #51917a;
+    align-items: center;
+    height: 4em;
+    border: none;
+}
+
+.btn img {
+    width: 26px;
+    height: 24px;
+    top: 6px;
+    position: relative;
+    left: 77px;
+    border-radius: 0;
+    margin-right: 13em;
+}
+
+.btn svg {
+    width: 25px;
+    left: 81px;
+    position: relative;
+}
+
+.btn span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15.35px;
+    margin-left: 0.9em;
+    color: #ffffff;
+}
+
+footer {
+    position: relative;
+    top: 56rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 724px) {
+    .wrapper {
+        display: flex;
+        border-radius: 0.6rem;
+        margin: 0;
+        background: white;
+        width: 89%;
+        height: 86%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+    }
+
+    .wrapper img {
+        border-radius: 0.6rem 0.6rem 0 0;
+        height: 379px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .container {
+        text-align: left;
+        padding: 1.4em;
+        line-height: 3;
+        width: 87%;
+    }
+
+    .container p {
+        max-height: 26%;
+    }
+
+    .main_prc {
+        font-family: 'Isabel' !important;
+        font-size: 6.8vw !important;
+        color: #457c68 !important;
+    }
+
+    .prices {
+        position: relative;
+        top: 16px;
+    }
+
+    .btn {
+        top: 15%;
+        margin-bottom: -1.6rem;
+    }
+
+    .btn svg {
+        width: 28px;
+        left: 30%;
+        position: relative;
+    }
+
+    .btn span {
+        font-family: 'Nunito', sans-serif;
+        font-size: 3vw;
+        margin-left: 0.9em;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+    .wrapper {
+        display: flex;
+        border-radius: 0.6rem;
+        margin: 0;
+        background: white;
+        width: 89%;
+        height: auto;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+    }
+
+    .wrapper img {
+        border-radius: 0.6rem 0.6rem 0 0;
+        height: 339px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .container {
+        text-align: left;
+        padding: 1.6em;
+        line-height: 3;
+        width: 87%;
+    }
+
+    .container p {
+        max-height: 29%;
+        padding-bottom: 0.4em;
+    }
+
+    .main_prc {
+        font-family: 'Isabel' !important;
+        font-size: 8vw !important;
+        padding-bottom: 4% !important;
+        color: #457c68 !important;
+    }
+
+    .prices {
+        position: relative;
+        margin-bottom: 12%;
+    }
+
+    .btn {
+        top: 11% !important;
+        margin-bottom: -.6em;
+    }
+
+    .btn svg {
+        position: relative;
+        top: .095em;
+
+        flex-shrink: 0;
+
+        height: auto;
+        width: 1.9em;
+    }
+
+    .btn span {
+        font-family: 'Nunito', sans-serif;
+        font-size: 16.35px;
+        margin-left: 0.9em;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 0px) {
+    .btn {
+        top: 12% !important;
+    }
+}

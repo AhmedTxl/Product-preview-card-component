@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Isabel';
+    src: local('Isabel Black'), local('Isabel-Black'),
+        url('Isabel-Black.woff2') format('woff2'),
+        url('Isabel-Black.woff') format('woff'),
+        url('Isabel-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
