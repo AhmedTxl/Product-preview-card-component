@@ -39,7 +39,7 @@ body {
 }
 
 .wrapper img {
-    width: 51%;
+    width: 100%;
     border-radius: 0.6rem 0 0 0.6rem;
 }
 
@@ -77,13 +77,13 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    top: 6px;
+    top: 3%;
 }
 
 .btn {
     display: flex;
     position: relative;
-    top: 20%;
+    top: 13%;
     border-radius: 0.6rem;
     cursor: pointer;
     background: #51917a;
